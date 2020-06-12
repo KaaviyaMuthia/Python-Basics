@@ -1,0 +1,8 @@
+#Get input
+dig = input("Enter a character:")
+
+#check the character using if statement
+if dig == "a" or 'e' or 'i' or 'o' or 'u':
+    print("It is a vowel")
+else:
+    print("It is not a vowel")
