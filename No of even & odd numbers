@@ -1,0 +1,20 @@
+#Enter a list of numbers
+no = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+#Enter the values for the following subjects
+even, odd = 0, 0
+num = 0
+
+#Open the for loop
+while (num < len(no)):
+
+#If-Else condition
+    if no % 2 == 0:
+        even += 1
+    else:
+        odd += 1
+    num += 1
+    
+#Print the even & odd numbers
+print("Even numbers:", even)
+print("Odd numbers:", odd)
