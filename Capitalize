@@ -1,0 +1,6 @@
+#get input from user
+txt=input("Enter a sentence:")
+
+#Capitalize the string
+x=txt.capitalize()
+print(x)
