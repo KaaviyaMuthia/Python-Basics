@@ -1,0 +1,6 @@
+#Get input
+txt=input("Enter a sentence:")
+
+#Check if'txt'ends with "."
+x=txt.endswith(".")
+print(x)
