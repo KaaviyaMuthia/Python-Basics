@@ -1,0 +1,6 @@
+#Get input
+txt=input("Enter your name:")
+
+#Encode input
+x=txt.encode()
+print(x)
