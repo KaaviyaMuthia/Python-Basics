@@ -1,0 +1,7 @@
+#Get input
+mul: int = int(input("Enter a number:"))
+a=1
+
+#Enter for-loop
+for a in range(1,11):
+    print(a,"*",mul,"=",a*mul)
