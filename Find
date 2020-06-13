@@ -1,0 +1,6 @@
+#Get input
+txt=input("Enter a sentence:")
+
+#Give value for 'Find'
+x=txt.find(".")
+print(x)
