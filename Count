@@ -1,0 +1,6 @@
+#Get input
+txt=input("Enter a sentence:")
+
+#Count the given word in the sentence
+x=txt.count("rain")
+print("no of 'rain'=",x)
