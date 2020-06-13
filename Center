@@ -1,0 +1,6 @@
+#Get input
+txt=input("Enter a word:")
+
+#move the word to the preferred place
+x=txt.center(140)
+print(x)
