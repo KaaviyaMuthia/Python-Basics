@@ -1,0 +1,6 @@
+#Get input
+txt=input("Enter a sentence:")
+
+#Convert to lowercase
+x=txt.casefold()
+print(x)
