@@ -1,0 +1,5 @@
+#Get input
+txt=input("Enter:")
+
+#Check value
+print(txt.isdigit())
