@@ -1,0 +1,8 @@
+#get input
+a=input("Enter a word:")
+
+#If condition
+if 'ing' in a:
+    print(a,"ly")
+elif 'ing' not in a :
+    print(a,"ing")
