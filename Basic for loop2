@@ -1,0 +1,6 @@
+#For loop
+for i in range(0,11):
+ 
+ #If condition
+ if i%2!=0:
+    print(i)
