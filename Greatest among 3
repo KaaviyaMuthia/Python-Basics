@@ -1,0 +1,15 @@
+#Get values
+print("Enter 3 values:")
+a = int(input("a:"))
+b = int(input("b:"))
+c = int(input("c:"))
+
+#Find the greatest
+if a>b and a>c:
+    print("a is the greatest")
+elif b>a and b>c:
+    print("b is the greatest")
+elif c>b and c>a:
+    print("c is the greatest")
+else:
+    print("all values are same")
