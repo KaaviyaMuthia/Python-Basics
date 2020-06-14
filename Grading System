@@ -1,0 +1,28 @@
+print("Concord Primary School")
+print("----------------------")
+
+#Get name
+name = input("Enter your name:")
+print("Please enter your marks for the following subjects:")
+
+#Get subject marks
+eng = int(input("English:"))
+math = int(input("Math:"))
+sci = int(input("Science:"))
+mt = int(input("Mother Tongue:"))
+
+#Find total & average
+tot = eng + math + sci + mt
+avg = tot / 4
+print("Total:", tot)
+print("Average:", avg)
+
+#if condition
+if avg >= 85:
+    print("A grade")
+elif avg < 85 and avg >= 70:
+    print("B grade")
+elif avg > 50 and avg < 70:
+    print("A grade")
+else:
+    print("Fail")
