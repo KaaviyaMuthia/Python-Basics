@@ -1,0 +1,5 @@
+#get input
+txt=input("Enter:")
+
+#Check
+print(txt.isdecimal())
