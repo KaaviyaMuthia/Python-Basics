@@ -1,0 +1,3 @@
+list=["banana","apple","grape"]
+list[1]="blackcurrent"
+print(list)
