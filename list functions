@@ -1,0 +1,19 @@
+#Get list input
+lst=[]
+n=int(input("Enter the number of values:"))
+for i in range(0,n):
+    ele=int(input())
+    lst.append(ele)
+print(lst)
+
+#Add all functions
+lst.insert(0,5)
+lst.insert(1,10)
+lst.insert(0,6)
+lst.remove(6)
+lst.append(9)
+lst.append(1)
+lst.sort()
+lst.pop(1)
+lst.reverse()
+print(lst)
