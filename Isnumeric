@@ -1,0 +1,2 @@
+txt=input("Enter:")
+print(txt.isnumeric())
