@@ -1,0 +1,3 @@
+txt="Kaaviya"
+x=txt.isprintable()
+print(x)
