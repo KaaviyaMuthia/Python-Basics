@@ -1,0 +1,3 @@
+txt = "I could eat bananas every day"
+x = txt.partition("bananas")
+print(x)
