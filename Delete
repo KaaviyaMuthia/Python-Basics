@@ -1,0 +1,3 @@
+list=["banana","apple","grape"]
+del list[0]
+print(list)
