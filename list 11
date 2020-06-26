@@ -1,0 +1,2 @@
+list=["banana","apple","grape"]
+print(len(list))
