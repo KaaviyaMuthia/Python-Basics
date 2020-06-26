@@ -1,0 +1,3 @@
+list=["banana","apple","grape"]
+for x in list:
+   print(x)
