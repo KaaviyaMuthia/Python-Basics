@@ -1,0 +1,3 @@
+txt = "I could eat bananas every day/nwelcome to the jungle"
+x = txt.splitlines()
+print(x)
