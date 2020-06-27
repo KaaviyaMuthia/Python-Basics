@@ -1,0 +1,8 @@
+name = 'Kaaviya'
+print(name)
+name = "Kaaviya"
+print(name)
+name = '''Kaaviya'''
+print(name)
+name = """My name is kaaviya"""
+print(name)
