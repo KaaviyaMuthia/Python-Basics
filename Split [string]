@@ -1,0 +1,2 @@
+a='hello,ball,cat'
+print((a.split(",")))
