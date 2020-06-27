@@ -1,0 +1,6 @@
+count = 0
+a = "Hello world"
+for i in a:
+    print(i)
+    count=count+1
+print(count)
