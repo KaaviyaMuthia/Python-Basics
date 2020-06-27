@@ -1,0 +1,2 @@
+a='call'
+print(a.replace("c","b"))
