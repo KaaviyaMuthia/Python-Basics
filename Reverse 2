@@ -1,0 +1,10 @@
+lst=[]
+rword=""
+n=input("Enter a sentence:")
+lst=n.split()
+words=reversed(lst)
+print(" ".join(words)) #reverse word by word
+for i in lst:
+    i=i[::-1]
+    rword=" ".join(i)
+    print(rword)
