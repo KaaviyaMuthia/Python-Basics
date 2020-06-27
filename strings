@@ -1,0 +1,6 @@
+str='Python'
+print('str=',str)
+print('str=',str[1])
+print('str=',str[-1])
+print('str=',str[2:5])
+print('str=',str[3:-1])
